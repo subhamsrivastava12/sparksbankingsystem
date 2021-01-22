@@ -1,0 +1,52 @@
+
+.tt{
+    color:whitesmoke;
+    text-align: center;
+    margin:5%;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.st{
+    color:#190061;
+    text-align: center;
+    margin:10%;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ft{
+    color:wheat;
+    text-align: center;
+    margin:12%;
+}
+@media only screen and (max-width: 800px) {
+    .homecontainer{
+        width:100vw;
+        height:100vh;
+    }
+    .tt{
+        color:whitesmoke;
+        text-align: center;
+        padding-top: 5%;
+        margin:5%;
+        font-size: 2.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .st{
+        color:#007bff;
+        text-align: center;
+        padding-top: 5%;
+
+        margin:10%;
+        font-size: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .ft{
+        color:wheat;
+        text-align: center;
+        margin:12%;
+        padding-top: 10%;
+        font-size: 1.5em;
+
+    }
+  }
+ 

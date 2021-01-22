@@ -1,0 +1,164 @@
+.bodytransfer{
+    height:100%;
+
+}
+.transferbody{
+    margin:3%;
+}
+.success{
+    color:yellowgreen;
+    text-align: center;
+    font-size: 2em;
+}
+.payment{
+    margin:3%;
+}
+ .button{
+    width:30vw;
+
+}
+.question{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2.5em;
+    text-align: center;
+    color:#190061;
+}
+.list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25%;
+
+}
+.list a{
+    font-size: 2em;
+}
+.query{
+    margin:2%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    color: white;
+}
+.pay{
+    justify-content: center;
+    margin-left: 20%;
+    width:50%;
+}
+.cname{
+    color:seashell;
+    margin:2%;
+}
+
+.cbal{
+    color:seashell;
+    margin:2%;
+}
+.hlist{
+    width:60%;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+.msg{
+    font-size: 1.2em;
+    text-align: left;
+}
+.instruct{
+    font-size: 1.5em;
+    word-break:break-word;
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 900px) {
+    .msg{
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .bodytransfer{
+        height:100%;
+    
+    }
+    .transferbody{
+        margin:3%;
+        width:90vw;
+        height:100vh;
+    }
+    
+    .success{
+        color:yellowgreen;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+    .payment{
+        margin:5%;
+    }
+     .button{
+        width:30vw;
+    
+    }
+    .question{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:#190061;
+        font-size:2em;
+        text-align: center;
+    }
+    .list a{
+        font-size: 2em;
+        width:80vw;
+        padding:2%;
+
+    }
+    .list{
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        padding-left: 3%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .query{
+        margin:2%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+        color:white;
+        font-size: 1.2em;
+
+        border-bottom:3px solid darkgray;
+    }
+    .pay{
+        justify-content: center;
+        margin-left: 20%;
+        width:50%;
+        margin-bottom: 2%;
+    }
+    .cname{
+        color:seashell;
+        margin-top: 5%;
+        margin:2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .cbal{
+        color:seashell;
+        margin:2%;
+        margin-bottom: 5%;
+    }
+    .hlist{
+        width:90vw;
+        text-align: center;
+        justify-content: center;
+        margin:auto;
+        word-break: keep-all;
+    }
+    .paysuccess{
+        width:90vw;
+        height:100vh;
+    }
+    .instruct{
+        font-size: 1.1em;
+        word-break:keep-all;
+        display: inline-flex;
+    }
+    
+    
+  }
+  

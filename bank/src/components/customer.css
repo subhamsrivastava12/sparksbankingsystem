@@ -1,0 +1,108 @@
+.customerbody{
+  margin:5%;
+  padding:auto;
+  height:100%;
+  
+}
+.cardpart{
+  margin-bottom:20px;
+
+}
+.carddetail{
+  margin:5%;
+  align-items: center;
+  justify-content: center;
+  padding:1%;
+  padding-top: 15%;
+  width:75%;
+}
+.trans{
+  color:green;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.amount{
+  color:teal;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.donor{
+  color:blue;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family:sans-serif;
+}
+.instruction{
+  display: inline-flex;
+  font-size: 1.5em;
+  word-break:break-word;
+}
+.history{ 
+  text-align: center;
+  color:#f0ebff;
+  font-size: 2.5em;
+  margin:2%;
+
+}
+.tlist{
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .customerbody{
+    padding:auto;
+    height:100vh;
+    width:90vw;
+  }
+  .cardpart{
+    margin-bottom:20px;
+  
+  }
+  .carddetail{
+    margin:5%;
+    align-items: center;
+    justify-content: center;
+    padding:1%;
+    width:70vw;
+    padding-top: 5%;
+  }
+  .trans{
+    color:green;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .amount{
+    color:teal;
+    margin-left: 5px;
+    margin-right: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .donor{
+    color:blue;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family:sans-serif;
+  }
+  .instruction{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1em;
+    word-break: keep-all;
+  }
+  .history{ 
+    text-align: center;
+    color:#f0ebff;
+    font-size: 2em;
+    margin:2%;
+  
+  }
+  .tlist{
+    text-align: center;
+    width:90vw;
+  }
+  
+}
